@@ -2,9 +2,18 @@
   "name": "gitbook-plugin-advanced-emoji",
   "description": "Shows the common emojis used on GitHub",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "gitbook": ">=0.3.4"
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "myConfigKey": {
+        "type": "string",
+        "default": "test",
+        "description": "test"
+      }
+    }
   },
   "homepage": "https://github.com/codeclou/gitbook-plugin-advanced-emoji",
   "repository": {
