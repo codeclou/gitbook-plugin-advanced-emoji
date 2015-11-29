@@ -12,9 +12,11 @@ module.exports = {
     blocks: { },
 
     hooks: {
-		"page": function(page) {
-            page.content = page.content.replace(":white_check_mark:", "FOO");
-			return page;
-		}
+        "page:before": function(page) {
+            /*page.content = page.content.replace(/:white_check_mark:/g, "FOO");*/
+            var emojify = require("emojify.js");
+            page.content = emojify.replace(page.content);
+            return page;
+        }
     }
 };
