@@ -1,9 +1,9 @@
 module.exports = {
     website: {
-        assets: "./node_modules/emojify.js/dist/images/basic/",
+        assets: "./assets",
         js: [ ],
         css: [
-            "plugin.css"
+            "emojify.css"
         ]
     },
 
@@ -12,7 +12,7 @@ module.exports = {
     hooks: {
         "page:before": function(page) {
             var emojify = require("emojify.js");
-            emojify.setConfig({img_dir : '/gitbook/plugins/gitbook-plugin-advanced-emoji/'});
+            emojify.setConfig({img_dir : '/gitbook/plugins/gitbook-plugin-advanced-emoji/emojis/'});
             page.content = emojify.replace(page.content);
             return page;
         }
