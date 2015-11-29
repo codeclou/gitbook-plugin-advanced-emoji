@@ -1,11 +1,9 @@
 module.exports = {
     website: {
-        assets: "./book",
-        js: [
-            "book.js"
-        ],
+        assets: "./node_modules/emojify.js/dist/images/basic/",
+        js: [ ],
         css: [
-            "book.css"
+            "./book/plugin.css"
         ]
     },
 
@@ -13,8 +11,8 @@ module.exports = {
 
     hooks: {
         "page:before": function(page) {
-            /*page.content = page.content.replace(/:white_check_mark:/g, "FOO");*/
             var emojify = require("emojify.js");
+            emojify.setConfig({img_dir : '/gitbook/plugins/gitbook-plugin-advanced-emoji/'});
             page.content = emojify.replace(page.content);
             return page;
         }
