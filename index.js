@@ -3,7 +3,7 @@ module.exports = {
         assets: "./node_modules/emojify.js/dist/images/basic/",
         js: [ ],
         css: [
-            "./book/plugin.css"
+            "plugin.css"
         ]
     },
 
