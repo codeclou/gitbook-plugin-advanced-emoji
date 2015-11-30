@@ -1,6 +1,8 @@
 # GitBook Plugin: Advanced Emoji
 
-Transforms emojis like `:white_check_mark:` into real :white_check_mark: emoji images using [emojify.js](https://github.com/hassankhan/emojify.js).
+Transforms emojis like `:white_check_mark:` into real <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="20" width="20" align="absmiddle"> emoji images using [emojify.js](https://github.com/hassankhan/emojify.js).
+
+Please note that this plugin only works for **markdown** files. All other filetypes will just be ignored, and the plugin does nothing.
 
 ## Installation
 
@@ -20,6 +22,16 @@ Be sure to activate the option from the `book.json` file:
 
 Then run `gitbook install` followed by either `gitbook serve` or `gitbook build`
 
+
+## Using Ignore Flags
+
+If you want for example occurences of emojis **not replaced** you will need to wrap them in the following comments.
+
+```
+<!-- ignore:advanced-emoji:start -->
+:white_check_mark:
+<!-- ignore:advanced-emoji:end -->
+```
 
 ## License
 
