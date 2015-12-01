@@ -39,10 +39,10 @@ You can even set the ignores around a codeblock or more lines.
 This is a text
 
 <!-- ignore:advanced-emoji:start -->
+'''
 Check the Code
-```
 Code ... :white_check_mark:
-```
+'''
 <!-- ignore:advanced-emoji:end -->
 
 foo
