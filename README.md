@@ -16,6 +16,7 @@ You should see emojis here in your pdf:
 ## Howto build PDF of this GitBook
 
 ```
+nom install
 npm run gitbook:install
 npm run gitbook:pdf
 ```
