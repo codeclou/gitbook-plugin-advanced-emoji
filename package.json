@@ -2,16 +2,16 @@
   "name": "gitbook-plugin-advanced-emoji",
   "description": "Shows the common emojis used on GitHub",
   "main": "index.js",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "engines": {
     "gitbook": ">=2.5.0"
   },
   "gitbook": {
     "properties": {
-      "myConfigKey": {
-        "type": "string",
-        "default": "test",
-        "description": "test"
+      "embedEmojis": {
+        "type": "boolean",
+        "default": false,
+        "description": "Should the plugin embedd emojis as base64 data-uri strings instead of linked image urls?"
       }
     }
   },
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/codeclou/gitbook-plugin-advanced-emoji.git"
   },
-  "license": "Apache 2",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/codeclou/gitbook-plugin-advanced-emoji/issues"
   },
