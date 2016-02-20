@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"gitbook:install": "gitbook install",
-    "gitbook:pdf": "gitbook pdf ./ ./gitbook.pdf "
+    "gitbook:install": "gitbook install",
+    "gitbook:pdf": "gitbook pdf ./ ./gitbook.pdf",
+    "gitbook:serve": "gitbook serve"
   },
   "dependencies": {
-	"gitbook-cli": "latest"
+    "gitbook-cli": "latest"
   },
   "author": "",
   "license": "ISC"
