@@ -57,10 +57,3 @@ You can see the Branch [pdf-test-book](https://github.com/codeclou/gitbook-plugi
  * https://github.com/codeclou/gitbook-plugin-advanced-emoji is licensed under MIT License
  * https://github.com/hassankhan/emojify.js is licensed under MIT License
 
-## Publishing to npmjs.com
-
-```
-npm install           # install dependencies
-npm run pre-publish   # copies emoji pngs and css to assets folder
-npm run publish       # publishes to npmjs.com
-```
