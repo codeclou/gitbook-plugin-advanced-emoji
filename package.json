@@ -1,0 +1,16 @@
+{
+  "name": "gitbooktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"gitbook:install": "gitbook install",
+    "gitbook:pdf": "gitbook pdf ./ ./gitbook.pdf "
+  },
+  "dependencies": {
+	"gitbook-cli": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
