@@ -48,6 +48,10 @@ Code ... :white_check_mark:
 foo
 ```
 
+## Building a PDF
+
+You can see the Branch [pdf-test-book](https://github.com/codeclou/gitbook-plugin-advanced-emoji/tree/pdf-test-book) on how to use the plugin when building a PDF.
+
 ## License
 
  * https://github.com/codeclou/gitbook-plugin-advanced-emoji is licensed under MIT License
