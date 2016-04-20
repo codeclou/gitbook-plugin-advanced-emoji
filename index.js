@@ -22,7 +22,7 @@ module.exports = {
             if (page.type === "markdown") {
                 var emojify = require("emojify.js");
                 var emojifyJsConfig = {
-                    img_dir: "/gitbook/plugins/gitbook-plugin-advanced-emoji/emojis/",
+                    img_dir: "gitbook/gitbook-plugin-advanced-emoji/emojis",
                     ignore_emoticons: true,
                     mode: 'img'
                 };
