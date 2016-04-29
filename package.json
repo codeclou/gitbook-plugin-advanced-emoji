@@ -1,13 +1,13 @@
 {
-  "name": "gitbooktest",
+  "name": "gitbooktest-v3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gitbook:install": "gitbook install",
-    "gitbook:pdf": "gitbook pdf ./ ./gitbook.pdf",
-    "gitbook:serve": "gitbook serve"
+    "gitbook:serve": "gitbook serve",
+    "gitbook:build": "gitbook build"
   },
   "dependencies": {
     "gitbook-cli": "latest"

@@ -1,31 +1,18 @@
 # Introduction
 
-This is an example of how to use gitbook-plugin-advanced-emoji with *pdf export*
+This is an example of how to use gitbook-plugin-advanced-emoji with *version 3.x of gitbook*
 
 
-You should see emojis here in your pdf:
+# Test Emojis
 
-:sparkles: :hamster: :tropical_fish:
-
-
-  * Some text above. Nothing special, but whe need text here to check margin of emojis.
-  * And here :tropical_fish: it is inlined and :white_check_mark: another.
-  * Some text beneath. Nothing special, but whe need text here to check margin of emojis.
-
+  * :white_check_mark: ok
 
 ## Howto build PDF of this GitBook
 
 ```
 nom install
 npm run gitbook:install
-npm run gitbook:pdf
+npm run gitbook:build
+# or
+npm run gitbook:serve
 ```
-
-Now you should see a `gitbook.pdf` file.
-
-
-## How it will look
-
-It should look like this:
-
-![](./emoji-pdf-preview.png)
