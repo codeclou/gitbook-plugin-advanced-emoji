@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-advanced-emoji",
   "description": "Shows the common emojis used on GitHub",
   "main": "index.js",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "engines": {
 	"gitbook": ">=3.0.0-pre.0"
   },
