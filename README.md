@@ -48,6 +48,13 @@ Code ... :white_check_mark:
 foo
 ```
 
+## Versions
+
+  * GitBook will automatically install the right version of the plugin
+    * `master` branch is for GitBook v3.x and plugin version is `0.2.x`
+    * `gitbook_v2` branch is for GitBook v2.x and plugin version is `0.1.x`
+
+
 ## Building a PDF
 
 You can see the Branch [pdf-test-book](https://github.com/codeclou/gitbook-plugin-advanced-emoji/tree/pdf-test-book) on how to use the plugin when building a PDF.
