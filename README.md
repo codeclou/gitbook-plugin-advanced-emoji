@@ -10,7 +10,7 @@ This is an example of how to use gitbook-plugin-advanced-emoji with *version 3.x
 ## Howto build PDF of this GitBook
 
 ```
-nom install
+npm install
 npm run gitbook:install
 npm run gitbook:build
 # or
