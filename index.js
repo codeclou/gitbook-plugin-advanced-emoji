@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
     website: {
         assets: "./assets",
@@ -21,8 +23,18 @@ module.exports = {
         "page:before": function(page) {
             if (page.type === "markdown") {
                 var emojify = require("emojify.js");
+                var img_dir = '/gitbook/gitbook-plugin-advanced-emoji/emojis';
+                // for multi language
+                if (this.isLanguageBook()) {
+                  img_dir = '..' + img_dir;
+                  // sub directory
+                  var parsed_path = path.parse(page.path);
+                  if (parsed_path.dir) {
+                    img_dir = '../' + img_dir;
+                  }
+                }
                 var emojifyJsConfig = {
-                    img_dir: "/gitbook/gitbook-plugin-advanced-emoji/emojis",
+                    img_dir: img_dir,
                     ignore_emoticons: true,
                     mode: 'img'
                 };
