@@ -1,3 +1,7 @@
+:mega: **End of Lifetime Notice**: We no longer provide support for this repository. It will be made readonly, you can still fork it and adapt it to your needs.
+
+----
+
 # GitBook Plugin: Advanced Emoji
 
 Transforms emojis like `:white_check_mark:` into real <img src="https://codeclou.github.io/gitbook-plugin-advanced-emoji/doc/white_check_mark_20.png"/> emoji images using [emojify.js](https://github.com/hassankhan/emojify.js).
